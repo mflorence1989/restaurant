@@ -1,0 +1,234 @@
+header{
+    padding:30px;
+    background:black;
+    opacity: .4;
+    position: relative;
+}
+
+header .logo .red-line .fas{
+    float: left;
+    color:red;
+    position: absolute;
+    font-size: 3rem;
+    transform: rotate(179deg);
+    top: 7px;
+    left: 104px;
+  }
+  header .logo  .white-line .fas{
+  color:white;
+  position: absolute;
+  font-size: 3rem;
+  top: 7px;
+  left: 136px;
+  }
+  header .header-menu{
+    position: absolute;
+    top: 22px;
+    right: 73px;
+  }
+  header .header-menu a{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+  
+    }
+    header .header-menu a:hover{
+        font-weight: 700;
+        color: #ff5253;
+      }
+      header .menu-btn{
+        display: none;
+        
+      } 
+     #top-section img{
+        height: 566px;
+    }
+    #top-section h1 {
+        color: red;
+        position: absolute;
+        top: 200px;
+        left: 444px;
+        font-size: 10rem;
+    }
+   .arrow-box{
+        width:125px;
+        height:100px;
+        position: relative;
+        background: black;
+        top: -100px;
+        left: 433px;
+        opacity: .4;
+        
+    }
+    .arrow-box .prev{
+        font-size: 2rem;
+        left: 25px;
+        top: 25px;
+        position: absolute;
+        color:white;
+}
+
+    .arrow-box .next{
+        top: 25px;
+        position: absolute;
+        color:white;
+        left: 76px;
+        font-size: 2rem;
+    }
+
+    #top-section .numbertext {
+        color: red;
+        position: absolute;
+        top: 564px;
+        left: 473px;
+        color: white;
+    }
+  
+/*Laptops*/
+@media only screen and (max-width: 1215px){
+
+  
+}
+/*tablets*/
+@media only screen and (max-width: 1023px){
+    header .header-menu{
+        display: none;
+      }
+    
+      header .menu-btn{
+        display: flex;
+        float: right;
+        cursor: pointer;
+      } 
+      header .logo .red-line .fas {
+        float: left;
+        color: red;
+        position: absolute;
+        font-size: 3rem;
+        transform: rotate(179deg);
+        top: 7px;
+        left: 61px;
+    }
+    header .logo .white-line .fas {
+        color: white;
+        position: absolute;
+        font-size: 3rem;
+        top: 7px;
+        left: 93px;
+    }
+      #top-section img{
+        height: 534px;
+    }
+    #top-section h1 {
+        color: red;
+        position: absolute;
+        top: 200px;
+        left: 211px;
+        font-size: 7rem;
+    }
+    .arrow-box {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background: black;
+        top: -100px;
+        left: 199px;
+        opacity: .4;
+    }
+    .arrow-box .prev {
+        font-size: 2rem;
+        left: 16px;
+        top: 25px;
+        position: absolute;
+        color: white;
+    }
+    .arrow-box .next {
+        top: 25px;
+        position: absolute;
+        color: white;
+        left: 56px;
+        font-size: 2rem;
+    }
+    #top-section .numbertext {
+        color: red;
+        position: absolute;
+        top: 534px;
+        left: 227px;
+        color: white;
+    }
+
+
+}
+
+      
+/* Phones */
+@media only screen and (max-width: 767px){
+    header .header-menu{
+        display: none;
+      }
+    
+      header .menu-btn{
+        display: flex;
+        float: right;
+        cursor: pointer;
+      } 
+      header .logo .red-line .fas {
+        float: left;
+        color: red;
+        position: absolute;
+        font-size: 3rem;
+        transform: rotate(179deg);
+        top: 7px;
+        left: 61px;
+    }
+    header .logo .white-line .fas {
+        color: white;
+        position: absolute;
+        font-size: 3rem;
+        top: 7px;
+        left: 93px;
+    }
+      #top-section img{
+        height: 534px;
+    }
+    #top-section h1 {
+        color: red;
+        position: absolute;
+        top: 270px;
+        left: 121px;
+        font-size: 3rem;
+    }
+    .arrow-box {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background: black;
+        top: -100px;
+        left: 93px;
+        opacity: .4;
+    }
+    .arrow-box .prev {
+        font-size: 2rem;
+        left: 16px;
+        top: 25px;
+        position: absolute;
+        color: white;
+    }
+    .arrow-box .next {
+        top: 25px;
+        position: absolute;
+        color: white;
+        left: 56px;
+        font-size: 2rem;
+    }
+    #top-section .numbertext {
+        color: red;
+        position: absolute;
+        top: 534px;
+        left: 121px;
+        color: white;
+    }
+
+}

@@ -1,6 +1,6 @@
 #services{
     background: #FF8E0D;
-height: 700px;
+    height: 700px;
 }
 
 .line{
@@ -45,7 +45,14 @@ height: 700px;
     position: relative;
   
 }
-
+.signature h4 {
+    position: relative;
+    color: white;
+    left: 930px;
+    font-size: 1.2rem;
+    top: 240px;
+    font-family: 'Dancing Script', cursive;
+}
 
 
 /*Laptops*/
@@ -55,9 +62,6 @@ height: 700px;
 }
 /*tablets*/
 @media only screen and (max-width: 1023px){
-   
-      }
-@media only screen and (max-width: 767px){
     .line {
         width: 29px;
         height: 5px;
@@ -80,23 +84,89 @@ height: 700px;
         color: black;
         font-size: 1rem;
         display: inline-block;
-        max-width: 25%;
+        max-width: 85%;
         left: 28px;
         top: 140px;
-        max-width: 90%;
         position: absolute;
     }
     #services .owner img {
-        width: 140px;
-        height: 140px;
+        width: 250px;
+        height: 250px;
         border: 4px solid white;
         float: right;
         border-radius: 50%;
-        /* margin-left: -10px; */
-        /* margin-top: -405px; */
-        top: 346px;
-        right: 106px;
+        top: 280px;
+        right: 114px;
         position: relative;
     }
+    .signature h4 {
+        font-size: 1rem;
+        color: white;
+        position: relative;
+        color: white;
+        left: 0px;
+        float: RIGHT;
+        /* right: -49px; */
+        font-size: 1.2rem;
+        top: 427px;
+        font-family: 'Dancing Script', cursive;
+    }
+   
+      }
+@media only screen and (max-width: 767px){
+    #services{
+        background: #FF8E0D;
+        height: 700px;
+    }
+    .line {
+        width: 29px;
+        height: 5px;
+        background: red;
+        position: relative;
+        left: 28px;
+    }
+    #services h1 {
+        color: black;
+        font-size: 2rem;
+        display: inline-block;
+        max-width: 100%;
+        position: relative;
+        left: 27px;
+    }
+    #services h1 span {
+    font-size: 2rem;
+    }
+    #services p {
+        color: black;
+        font-size: 1rem;
+        display: inline-block;
+        max-width: 85%;
+        left: 28px;
+        top: 140px;
+        position: absolute;
+    }
+    #services .owner img {
+        width: 150px;
+        height: 150px;
+        border: 4px solid white;
+        float: right;
+        border-radius: 50%;
+        top: 280px;
+        right: 114px;
+        position: relative;
+    }
+    .signature h4 {
+        font-size: 1rem;
+        color: white;
+        position: relative;
+        color: white;
+        left: 0px;
+        float: RIGHT;
+        /* right: -49px; */
+        font-size: 1.2rem;
+        top: 427px;
+        font-family: 'Dancing Script', cursive;
+    }
+ 
 
  }

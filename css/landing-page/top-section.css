@@ -4,9 +4,9 @@ header{
     /* opacity: .4; */
     position: relative;
 }
-.slideshow-container{
+/* .slideshow-container{
     background: #FF8E0D;
-}
+} */
 
 header .logo .red-line .fas{
     float: left;
